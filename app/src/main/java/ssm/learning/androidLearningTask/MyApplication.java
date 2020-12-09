@@ -1,9 +1,9 @@
-package ssm.learning.session5task;
+package ssm.learning.androidLearningTask;
 
 import android.app.Application;
 import android.content.IntentFilter;
 
-import ssm.learning.session5task.receivers.MyCustomReceiver;
+import ssm.learning.androidLearningTask.receivers.MyCustomReceiver;
 
 public class MyApplication extends Application {
     @Override

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:elevation="8dp"
+        android:layout_margin="8dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_margin="5dp"
+                android:id="@+id/vehicle_image"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+
+            </ImageView>
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:id="@+id/vehicle_type_label"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/vehicle_image"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Type : ">
+            </TextView>
+            <TextView
+                android:layout_margin="5dp"
+                android:id="@+id/vehicle_type"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/vehicle_type_label"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:id="@+id/vehicle_lat_label"
+                app:layout_constraintTop_toBottomOf="@id/vehicle_type_label"
+                app:layout_constraintLeft_toRightOf="@id/vehicle_image"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Latitude : ">
+
+            </TextView>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:id="@+id/vehicle_lat"
+                app:layout_constraintTop_toBottomOf="@id/vehicle_type"
+                app:layout_constraintLeft_toRightOf="@id/vehicle_lat_label"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:id="@+id/vehicle_lng_label"
+                app:layout_constraintTop_toBottomOf="@id/vehicle_lat_label"
+                app:layout_constraintLeft_toRightOf="@id/vehicle_image"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Longitude : ">
+
+            </TextView>
+            <TextView
+                android:layout_margin="5dp"
+                android:id="@+id/vehicle_lng"
+                app:layout_constraintTop_toBottomOf="@id/vehicle_lat"
+                app:layout_constraintLeft_toRightOf="@id/vehicle_lng_label"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:id="@+id/vehicle_bearing_label"
+                app:layout_constraintTop_toBottomOf="@id/vehicle_lng_label"
+                app:layout_constraintLeft_toRightOf="@id/vehicle_image"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Bearing : ">
+
+            </TextView>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:id="@+id/vehicle_bearing"
+                app:layout_constraintTop_toBottomOf="@id/vehicle_lng"
+                app:layout_constraintLeft_toRightOf="@id/vehicle_bearing_label"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

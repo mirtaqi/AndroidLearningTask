@@ -1,13 +1,9 @@
-package ssm.learning.session5task.receivers;
+package ssm.learning.androidLearningTask.receivers;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.RenderNode;
-import android.os.Handler;
 import android.widget.Toast;
-
-import ssm.learning.session5task.MainActivity;
 
 public class MyCustomReceiver extends BroadcastReceiver {
     @Override

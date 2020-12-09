@@ -1,4 +1,4 @@
-package ssm.learning.session5task;
+package ssm.learning.androidLearningTask;
 
 import android.content.Context;
 

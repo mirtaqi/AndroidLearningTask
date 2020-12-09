@@ -1,22 +1,16 @@
-package ssm.learning.session5task;
+package ssm.learning.androidLearningTask;
 
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
-import android.content.res.Configuration;
 import android.os.Bundle;
-import android.view.MenuItem;
-import android.view.View;
 import android.widget.Toast;
 
 import java.util.ArrayList;
 
-import ssm.learning.session5task.services.TestSerice;
+import ssm.learning.androidLearningTask.services.TestSerice;
 
 public class MainActivity extends AppCompatActivity {
     private Intent _serviceIntent;

@@ -1,4 +1,4 @@
-package ssm.learning.session5task.services;
+package ssm.learning.androidLearningTask.services;
 
 import android.app.Service;
 import android.content.Intent;
